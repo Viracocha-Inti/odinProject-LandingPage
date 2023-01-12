@@ -108,3 +108,22 @@ p,
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
 }
+.mainBot {
+  background-color: #e5e7eb;
+  padding: 70px 130px;
+}
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.quoteAuthor {
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 50px;
+  font-weight: bold;
+}
