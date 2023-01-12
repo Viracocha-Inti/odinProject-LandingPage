@@ -39,7 +39,8 @@ ul {
   flex: 1 1 auto;
 }
 h1,
-h3 {
+h3,
+.titleTwo {
   color: #f9faf8;
   font-family: "Poppins", sans-serif;
 }
@@ -64,4 +65,46 @@ p,
   align-self: flex-start;
   color: #f9faf8;
   margin-top: 20px;
+}
+.mainTop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.titleTwo {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  padding: 60px 0;
+}
+.typesDragon {
+  flex: 1;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding-bottom: 60px;
+}
+.blackDragon,
+.redDragon,
+.blueDragon,
+.greenDragon {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 300px;
+  gap: 30px;
+}
+.blackDragon img,
+.redDragon img,
+.blueDragon img,
+.greenDragon img {
+  border: 2.5px solid rgb(57, 0, 227);
+  border-radius: 50px;
+}
+.dragonInfo {
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
 }
